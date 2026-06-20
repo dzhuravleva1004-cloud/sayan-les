@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СаянЛес - Главная</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="СаянЛес"></a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </nav>
+      <div class="header-right">
+        <button class="theme-toggle" id="theme-toggle">Тема</button>
+        <a href="login.html" class="btn">Войти</a>
+        <button class="burger" id="burger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="cart.html">Корзина</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="profile.html">Личный кабинет</a>
+      <button class="theme-toggle" id="theme-toggle-mobile">Сменить тему</button>
+      <a href="login.html" class="btn">Войти</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="slider">
+      <input type="radio" name="slider" id="s1" class="slider-input" checked>
+      <input type="radio" name="slider" id="s2" class="slider-input">
+      <input type="radio" name="slider" id="s3" class="slider-input">
+      
+      <div class="slides">
+        <div class="slide"><img src="images/3.png" alt="Слайд 1"></div>
+        <div class="slide"><img src="images/2.png" alt="Слайд 2"></div>
+        <div class="slide"><img src="images/4.png" alt="Слайд 3"></div>
+      </div>
+      
+      <label for="s3" class="slider-label prev label-prev-1">❮</label>
+      <label for="s2" class="slider-label next label-next-1">❯</label>
+      
+      <label for="s1" class="slider-label prev label-prev-2">❮</label>
+      <label for="s3" class="slider-label next label-next-2">❯</label>
+      
+      <label for="s2" class="slider-label prev label-prev-3">❮</label>
+      <label for="s1" class="slider-label next label-next-3">❯</label>
+      
+      <div class="slider-dots">
+        <label for="s1" class="dot dot-1"></label>
+        <label for="s2" class="dot dot-2"></label>
+        <label for="s3" class="dot dot-3"></label>
+      </div>
+    </div>
+
+    <section class="section-mb">
+      <h1>Производство пиломатериалов из натуральной древесины</h1>
+      <h2>О компании</h2>
+      <p class="mt-15">Наша компания занимается производством и реализацией пиломатериалов в абагане. Мы работаем как с крупными строительными организациями, так и с частными заказчиками. Все заказы выполняются на условиях самовывоза.</p>
+    </section>
+
+    <section class="section-mb flex-wrap-gap">
+      <div class="advantage-card">
+        <h3>Больше 20 лет опыта</h3>
+        <p>Мы знаем все о качестве древесины.</p>
+      </div>
+      <div class="advantage-card">
+        <h3>Больше 1000 выполненных заказов</h3>
+        <p>Нам доверяют строительные компании и частные лица.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Наша продукция</h2>
+      <ul class="product-list">
+        <li>Брус</li>
+        <li>Доска обрезная</li>
+        <li>Доска необрезная</li>
+        <li>Доска заборная</li>
+        <li>Брусок</li>
+        <li>Штакетник</li>
+        <li>Столбы</li>
+        <li>Дрова пиленые</li>
+      </ul>
+      <a href="catalog.html" class="btn">Перейти в каталог</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h4>Контакты</h4>
+        <p>г. Абакан, ул. Кирпичная д. 1</p>
+        <p>8 (3902) 26-07-26, 8 (3902) 26-00-60</p>
+        <p>+7 902 467 0726, +7 902 467 0060</p>
+        <p>sayan-les-abakan@yandex.ru</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="copyright">© Саянлес. ИП Дельвер Андрей Иванович</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

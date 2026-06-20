@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СаянЛес - Админ панель</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="СаянЛес"></a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </nav>
+      <div class="header-right">
+        <button class="theme-toggle" id="theme-toggle">Тема</button>
+        <a href="login.html" class="btn">Войти</a>
+        <button class="burger" id="burger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="cart.html">Корзина</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="profile.html">Личный кабинет</a>
+      <button class="theme-toggle" id="theme-toggle-mobile">Сменить тему</button>
+      <a href="login.html" class="btn">Выйти</a>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="mb-20">Управление заявками</h1>
+    <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Клиент</th>
+          <th>Телефон</th>
+          <th>Статус</th>
+          <th>Заметка после звонка</th>
+          <th>Действие</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="tovar.html" class="btn btn-small">1045</a></td>
+          <td>Иванов И.И.</td>
+          <td>+7 900 000 00 00</td>
+          <td>
+            <select class="select-status">
+              <option>В обработке</option>
+              <option>Готово к выдаче</option>
+              <option>Выдано</option>
+            </select>
+          </td>
+          <td><textarea rows="2" class="textarea-note">Перезвонить завтра</textarea></td>
+          <td><button class="btn btn-small">Сохранить</button></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h4>Контакты</h4>
+        <p>г. Абакан, ул. Кирпичная д. 1</p>
+        <p>8 (3902) 26-07-26, 8 (3902) 26-00-60</p>
+        <p>+7 902 467 0726, +7 902 467 0060</p>
+        <p>sayan-les-abakan@yandex.ru</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="copyright">© Саянлес. ИП Дельвер Андрей Иванович</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

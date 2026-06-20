@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СаянЛес - Корзина</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="СаянЛес"></a>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </nav>
+      <div class="header-right">
+        <button class="theme-toggle" id="theme-toggle">Тема</button>
+        <a href="login.html" class="btn">Войти</a>
+        <button class="burger" id="burger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="cart.html">Корзина</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="profile.html">Личный кабинет</a>
+      <button class="theme-toggle" id="theme-toggle-mobile">Сменить тему</button>
+      <a href="login.html" class="btn">Войти</a>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="mb-20">Корзина</h1>
+    <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Товар</th>
+          <th>Характеристика</th>
+          <th>Цена</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Брусок</td>
+          <td>50/50, 6-4 м.</td>
+          <td>70 ₽ п/м</td>
+        </tr>
+        <tr>
+          <td>Доска обрезная</td>
+          <td>Толщина 25 мм., 3 сорт</td>
+          <td>10 000 ₽</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="cart-total">
+      <div class="flex-gap-10">
+        <button class="btn btn-outline">Очистить корзину</button>
+        <a href="order.html" class="btn">Оформить заявку</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h4>Контакты</h4>
+        <p>г. Абакан, ул. Кирпичная д. 1</p>
+        <p>8 (3902) 26-07-26, 8 (3902) 26-00-60</p>
+        <p>+7 902 467 0726, +7 902 467 0060</p>
+        <p>sayan-les-abakan@yandex.ru</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="copyright">© Саянлес. ИП Дельвер Андрей Иванович</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
